@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <style>
+    :root { --fg: #0f172a; --muted: #64748b; --primary: #2563eb; --border: #e2e8f0; --bg: #ffffff; --box-bg: #f8fafc; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif; color: var(--fg); background: var(--bg); line-height: 1.8; font-size: 16px; }
+    a { color: var(--primary); text-decoration: none; font-weight: 500; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 840px; margin: 0 auto; padding: 0 20px; }
+    header.site-header { border-bottom: 1px solid var(--border); padding: 16px 0; background: #fff; position: sticky; top: 0; z-index: 20; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); }
+    .site-title { font-weight: 700; font-size: 17px; color: var(--fg); }
+    main { padding: 32px 0 60px; }
+    h1 { font-size: 1.9em; line-height: 1.35; margin: 1em 0 0.5em; }
+    h2 { font-size: 1.45em; margin-top: 1.8em; border-bottom: 2px solid var(--border); padding-bottom: 0.3em; }
+    table { border-collapse: collapse; width: 100%; margin: 1.5em 0; font-size: 15px; }
+    th, td { border: 1px solid var(--border); padding: 10px 14px; text-align: left; }
+    th { background: var(--box-bg); font-weight: 600; }
+    .notice-box { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 12px; padding: 18px 24px; margin: 2em 0; text-align: center; }
+    .btn-buy { display: inline-block; background: var(--primary); color: #ffffff !important; padding: 10px 24px; border-radius: 8px; margin: 8px 6px; font-weight: 600; text-decoration: none !important; }
+    .btn-trust { display: inline-block; background: #ffffff; color: var(--fg) !important; border: 1px solid var(--border); padding: 10px 20px; border-radius: 8px; margin: 8px 6px; font-weight: 500; text-decoration: none !important; }
+    footer.site-footer { border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; padding: 30px 0; background: var(--box-bg); text-align: center; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="notice-box">
+        <strong>⚡ 2026 国内开通 AI 会员通道：</strong> 支持微信 / 支付宝 / USDT 扫码，免密卡密自主激活，支持正规企业发票。
+        <br>
+        <a class="btn-buy" href="https://payforgpt.com/?utm_source=gh_pages&utm_medium=header_cta" target="_blank">前往 PayForGPT 极速充值</a>
+        <a class="btn-trust" href="https://nano-banana.lol/guide?utm_source=gh_pages&utm_medium=header_trust" target="_blank">查阅 Nano-Banana 评测指南</a>
+      </div>
+
+      {{ content }}
+
+      <div class="notice-box" style="margin-top: 3em;">
+        <strong>🛡️ 安全提示与合规声明：</strong> 
+        本站为独立第三方开源技术与操作指南。请认准官方直营开通与售后通道：
+        <br>
+        <a class="btn-buy" href="https://payforgpt.com/?utm_source=gh_pages&utm_medium=footer_cta" target="_blank">进入 PayForGPT 直营店</a>
+        <a class="btn-trust" href="https://nano-banana.lol/buyer-checklist?utm_source=gh_pages&utm_medium=footer_trust" target="_blank">查看买家核验清单</a>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      充值结算：<a href="https://payforgpt.com/" target="_blank">PayForGPT.com</a> · 
+      权威评测：<a href="https://nano-banana.lol/" target="_blank">Nano Banana</a> · 
+      <a href="{{ '/' | relative_url }}">返回教程首页</a>
+    </div>
+  </footer>
+</body>
+</html>

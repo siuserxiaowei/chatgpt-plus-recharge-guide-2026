@@ -1,0 +1,22 @@
+title: 2026 国内 ChatGPT / Claude 充值代充完整指南
+description: 针对国内专业用户与开发者的海外 AI 订阅攻略：支持微信、支付宝、USDT 扫码，免密卡密交付，支持正规企业发票。
+url: https://siuserxiaowei.github.io
+baseurl: /chatgpt-plus-recharge-guide-2026
+lang: zh-CN
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
