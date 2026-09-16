@@ -37,6 +37,10 @@
 - [采购前需要确认的凭证与开票信息](docs/06-enterprise-invoice-reimbursement.md)
 - [支付失败、已扣款与未交付排查](docs/07-stripe-payment-failed-solutions.md)
 
+## 可复用的 Agent Skill
+
+[ChatGPT / Codex 套餐选择与购买排查 Skill](skills/chatgpt-codex-purchase-triage/SKILL.md) 将本指南的判断流程整理成可供助手读取的说明：先区分用量、购买和订单异常，再按实际证据给下一步。只有 Markdown，不包含安装脚本，不需要提供交易凭证。使用前可直接阅读文件；它保留运营方利益关系说明，并尊重用户已经选择的商家。
+
 ## 先区分三种费用
 
 ChatGPT 订阅、Codex 额外用量和 API 账单需要分别确认。订阅升级不能直接等同于 API 余额充值，某个模型在一个入口可用，也不能证明它在其他入口具有同样权限。
@@ -50,5 +54,6 @@ ChatGPT 订阅、Codex 额外用量和 API 账单需要分别确认。订阅升�
 ## 更新记录
 
 - 2026-09-17：按两站当前业务定位更新首页和六类问题入口；纠正未经证实的成功率、固定到账时间、发票承诺和示例命令。保留已有文档路径，便于旧链接继续访问。
+- 2026-09-17：补充可复用的套餐选择与订单排查 Skill，区分创建、付款、交付与激活，提供两站对应问题的内页入口。
 
 站点首页：[PayForGPT](https://payforgpt.com/) · [Nano Banana](https://nano-banana.lol/)
