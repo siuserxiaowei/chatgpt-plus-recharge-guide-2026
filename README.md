@@ -1,171 +1,54 @@
-# 【亲测可用】2026 年 ChatGPT Plus / Pro 充值代充指南：GPT-6 Astra 选档、微信/支付宝付款与企业发票报销
+# ChatGPT 与 Codex：套餐选择、购买核对和问题排查
 
-> **【2026 年 9 月最新复测】** 本教程持续追踪 OpenAI 与 Anthropic 最新的支付风控及模型开放策略。实测国内通过微信、支付宝或 USDT 均可稳定完成 ChatGPT Plus、Pro 与 Codex 权限开通，无需海外实体信用卡，支持免密卡密交付与企业技术服务费发票报销。
+复核日期：2026-09-17。
 
----
+**利益关系说明：本指南由 PayForGPT 与 Nano Banana 运营方维护，两站均提供 ChatGPT、Codex 相关购买说明、套餐选择与售后入口。本仓库不是独立测评机构，与 OpenAI 无隶属关系。**
 
-## ⚡ 30 秒极速开通与选型通道
+先确认你要解决的是使用限制、订阅购买，还是已经付款后的交付问题。它们需要不同的处理步骤；已经扣款时，不要用再次购买来排查问题。
 
-如果你已被 Stripe 银行卡拒绝折腾得心力交瘁，或急需开通 GPT-6 Astra / Codex 权限并需要报销发票，推荐直接通过经过验证的合规通道处理：
+## 按当前问题继续
 
-- 👉 **[直营极速充值店：进入 PayForGPT 购买（微信 / 支付宝 / USDT，自动发卡密）](https://payforgpt.com/?utm_source=gh_readme&utm_medium=top_btn&utm_campaign=guide_2026)**
-- 👉 **[中立深度评测中心：前往 Nano-Banana 查阅防封指南与买家核验清单](https://nano-banana.lol/guide?utm_source=gh_readme&utm_medium=top_trust)**
+| 你的问题 | PayForGPT | Nano Banana |
+|---|---|---|
+| 查看本站商品、价格和购买条件 | [Plus 价格](https://payforgpt.com/plus-price) | [Plus 价格](https://nano-banana.lol/plus-price) |
+| Plus 还是 Pro，现有账号能否购买 | [Pro 套餐说明](https://payforgpt.com/chatgpt-pro) | [Pro 套餐说明](https://nano-banana.lol/chatgpt-pro) |
+| Codex 如何开始、用量不够怎么办 | [Codex 专题](https://payforgpt.com/codex) | [Codex 专题](https://nano-banana.lol/codex) |
+| 免费版是否已经够用 | [Free 与 Plus 对比](https://payforgpt.com/blog/chatgpt-plus-vs-free-2026) | [Free 与 Plus 对比](https://nano-banana.lol/blog/chatgpt-plus-vs-free-2026) |
+| 从选择商品到确认交付 | [购买步骤](https://payforgpt.com/how-to/recharge-chatgpt-plus) | [购买步骤](https://nano-banana.lol/how-to/recharge-chatgpt-plus) |
+| 已付款但未收到、兑换失败 | [交付排查](https://payforgpt.com/how-to/payment-success-not-delivered) | [交付排查](https://nano-banana.lol/how-to/payment-success-not-delivered) |
 
----
+两站商品、价格、库存和售后条件分别维护。在哪个站下单，就到哪个站查询订单；另一个站的商品说明不能替代原订单的约定。
 
-## 📚 目录导航
+## 购买前的五项核对
 
-- [一、国内充值 ChatGPT 为什么频繁失败？](#一国内充值-chatgpt-为什么频繁失败)
-- [二、常见充值方式全景对比（哪种最适合你）](#二常见充值方式全景对比哪种最适合你)
-- [三、核心推荐：免密自助卡密充值（3步极速开通）](#三核心推荐免密自助卡密充值3步极速开通)
-- [四、企业发票开具与公款财务报销全流程](#四企业发票开具与公款财务报销全流程)
-- [五、GPT-6 Astra 与 GPT-5.6 Sol / Terra / Luna 选档指南](#五gpt-6-astra-与-gpt-56-sol--terra--luna-选档指南)
-- [六、Codex 编程智能体与 Plus / Pro 权益绑定详解](#六codex-编程智能体与-plus--pro-权益绑定详解)
-- [七、国内自己充值最常见的 10 大报错与避坑指南](#七国内自己充值最常见的-10-大报错与避坑指南)
-- [八、常见问题解答 FAQ](#八常见问题解答-faq)
-- [九、专项长尾场景教程矩阵（点击查阅深度专文）](#九专项长尾场景教程矩阵点击查阅深度专文)
+1. **任务**：写下每周实际需要完成的任务，以及当前在哪一步受限。免费版能完成时，可以继续使用。
+2. **账号**：确认登录邮箱、登录方式、现有套餐、原订阅渠道和到期时间。不要把收据邮箱直接当成订阅账号。
+3. **商品**：核对所选商品的周期、价格、库存、适用账号和交付方式。页面读取失败不等于缺货。
+4. **凭证**：保存订单号和查单凭证。不要在 GitHub Issue、公开评论或聊天截图中发布订单密码、卡密、验证码、Session Token 或 API key。
+5. **售后**：付款前阅读交付与退款条件。有开票需求时先取得商家明确答复，不依据本文推断票种或报销资格。
 
----
+## 本仓库的操作手册
 
-## 一、国内充值 ChatGPT 为什么频繁失败？
+- [购买与交付核对步骤](docs/01-chatgpt-recharge-quickstart.md)
+- [没有可用付款方式时，先检查什么](docs/02-without-overseas-credit-card.md)
+- [Codex 登录、用量与 API 账单](docs/03-chatgpt-plus-codex-explained.md)
+- [模型名称与套餐权益怎么核对](docs/04-gpt-6-astra-plan-guide.md)
+- [Plus 与 Pro 的任务选择表](docs/05-chatgpt-pro-5x-20x-selection.md)
+- [采购前需要确认的凭证与开票信息](docs/06-enterprise-invoice-reimbursement.md)
+- [支付失败、已扣款与未交付排查](docs/07-stripe-payment-failed-solutions.md)
 
-很多开发者或办公用户在尝试开通 ChatGPT Plus 时，往往会遇到以下令人头疼的报错：
-- `Your card was declined.`（您的银行卡已被拒绝）
-- `We are unable to authenticate your payment method.`（无法验证您的付款方式）
-- 界面反复跳转，扣款失败后 OpenAI 账号被风控标记甚至暂时冻结。
+## 先区分三种费用
 
-### 为什么国内双币卡 100% 被秒拒？
-OpenAI 底层接入的是全球风控极其严苛的 **Stripe 支付网关**。Stripe 采用的是三方交叉验证规则：
-1. **发卡行地区与号段限制**：绝大多数国内银行发行的 Visa / Mastercard（即使是双币卡/全币种卡），其 BIN 号段属于中国大陆，直接在 Stripe 第一道规则库被过滤。
-2. **IP 纯净度与欺诈分值**：国内访问使用的梯子网络节点大多属于数据中心机房 IP（如 Cloudflare / AWS / 搬瓦工），欺诈分（Fraud Score）极高。
-3. **账单地址（Billing Address）不匹配**：Stripe 会校验填写的邮编、州省与 IP 归属地，三者稍有对不上就会触发反洗钱拦截。
+ChatGPT 订阅、Codex 额外用量和 API 账单需要分别确认。订阅升级不能直接等同于 API 余额充值，某个模型在一个入口可用，也不能证明它在其他入口具有同样权限。
 
-这就是为什么**不要反复用个人双币卡去撞墙**——失败超过 3 次，你的 OpenAI 账号很可能会被 Stripe 永久打上高风险标签。
+官方资料：[Plus 说明](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)、[ChatGPT 与 API 账单](https://help.openai.com/en/articles/9039756-billing-settings-in-chatgpt-vs-platform)、[Codex 入门](https://learn.chatgpt.com/docs/quickstart)。权益与用量会变化，请以下单时的官方说明、账号提示及商品要求为准。
 
----
+## 已经付款
 
-## 二、常见充值方式全景对比（哪种最适合你）
+到原购买站查单：[PayForGPT 订单](https://payforgpt.com/order) / [Nano Banana 订单](https://nano-banana.lol/order)。先区分创建订单、付款确认、交付与激活，再按对应状态处理。客服核查应通过原站提供的支持渠道，不在本仓库收集交易凭证。
 
-| 充值方案 | 适合人群 | 安全性 | 成功率 | 门槛与痛点 | 综合推荐指数 |
-| :--- | :--- | :---: | :---: | :--- | :---: |
-| **海外实体信用卡直付** | 有长期海外生活/外币工资者 | 极高 | 100% | 门槛极高，绝大多数国内用户没有合规境外实体卡 | ★★★☆☆ (有卡首选) |
-| **美区 App Store 礼品卡** | 熟悉苹果生态、有美区 Apple ID 者 | 较高 | 85% | 需注册海外 Apple ID，易买到黑卡礼品卡导致封 Apple 账号 | ★★★☆☆ (苹果用户备选) |
-| **海外虚拟信用卡 (VCC)** | 熟悉加密货币与跨境支付极客 | 极低 | 不稳定 | 需承担高额开卡费(10~20$)、汇损大、号段极易被批量封禁 | ★☆☆☆☆ (强烈不推荐) |
-| **共享账号 / 拼车** | 纯体验、无隐私数据需求者 | 极低 | - | 对话记录全员可见，极易被连坐封号，严禁用于正式工作 | ★☆☆☆☆ (严禁办公) |
-| **免密自助卡密充值** | **绝大多数国内办公、程序员与企业采购** | **高** | **99.8%** | **微信/支付宝扫码，即时发卡，不用给密码，可开正规企业发票** | **★★★★★ (首选省心)** |
+## 更新记录
 
----
+- 2026-09-17：按两站当前业务定位更新首页和六类问题入口；纠正未经证实的成功率、固定到账时间、发票承诺和示例命令。保留已有文档路径，便于旧链接继续访问。
 
-## 三、核心推荐：免密自助卡密充值（3步极速开通）
-
-目前国内最为稳妥、且已被上万名开发者验证的充值方案是：**通过支持人民币扫码的自研发卡平台购买代充卡密/激活链接，自己在浏览器中完成开通**。
-
-### 为什么坚持“免密卡密”原则？
-- ❌ **代登代充（危险）**：将账号密码发给陌生人代登充值，聊天隐私泄露，且异地 IP 登录容易直接触发封禁。
-- ✅ **自助卡密（安全合规）**：平台使用海外合规内购订阅链路生成专属激活凭证。**你全程无需交出任何密码或验证码**，在自己电脑的常用浏览器登录官网，粘贴卡密点击确认即时生效。
-
-### 3 步开通全流程：
-1. **选择套餐**：进入直营通道选择 ChatGPT Plus（月付）或 ChatGPT Pro 5x / 20x；
-2. **微信/支付宝扫码**：填写接收邮箱，使用人民币扫码支付，系统秒级生成卡密并同步发送到邮箱；
-3. **自主激活**：按页面附带的 1 分钟图文指引，在自己浏览器打开 OpenAI 充值链接粘贴卡密，刷新页面即刻点亮 Plus / Pro 徽标！
-
-👉 **[立即进入 PayForGPT 直营店开通 ChatGPT 会员](https://payforgpt.com/?utm_source=gh_readme&utm_medium=middle_cta)**
-
----
-
-## 四、企业发票开具与公款财务报销全流程
-
-对于企业研发部门、外企员工、科研高校项目组而言，最大的痛点是“国外平台无法提供中国合规发票”。
-
-### 发票支持规范：
-* **发票类型**：增值税电子普通发票。
-* **发票项目**：统一开具为 `*生产生活服务*技术服务费` 或 `*信息技术服务*软件服务费`。
-* **申请时效**：支付成功后 **7 天内**，凭订单号与下单邮箱即可在【订单查询】页面自主提交发票信息。
-* **交付方式**：提交后系统在 1~3 个工作日内核验开具，并直接发送到接收邮箱，可用于全国各企事业单位正常财务报销入账。
-
-👉 详见专文指南：[《ChatGPT Plus / Pro 企业发票开具与公款报销全流程指引》](./docs/06-enterprise-invoice-reimbursement.md)
-
----
-
-## 五、GPT-6 Astra 与 GPT-5.6 Sol / Terra / Luna 选档指南
-
-2026 年下半年 OpenAI 体系完成了重磅升级，新购前建议搞清版本定位：
-
-### 1. GPT-6 Astra（全新旗舰端到端模型）
-- **核心亮点**：强化了跨代码、浏览器与计算机操作的多步骤长链推理能力，旨在处理复杂高价值交付。
-- **开放机制**：Plus 与 Pro 用户分批灰度开放。购买 Plus 后请保持客户端最新，如果模型选择器未立即出现属正常灰度排队。
-- **选档建议**：若重度依赖 Astra 执行长程任务，建议选 **ChatGPT Pro 5x**；Plus 的 Astra 配额较为有限。
-
-### 2. GPT-5.6 家族（Sol / Terra / Luna）
-- **Sol (5.6)**：深度推理、算法攻坚与复杂架构设计；
-- **Terra (5.6)**：日常主力、综合全能，适合日常代码编写与文本处理；
-- **Luna (5.6)**：极速高效，专门处理清晰、批量、重复性高的结构化任务。
-
-👉 详见深度选档：[《GPT-6 Astra 与 GPT-5.6 详细选档与配额说明》](./docs/04-gpt-6-astra-plan-guide.md)
-
----
-
-## 六、Codex 编程智能体与 Plus / Pro 权益绑定详解
-
-许多工程师会问：“我想在终端和 IDE 里用 Codex 写代码，需要单独花钱买 Codex 吗？”
-
-**明确结论**：**OpenAI 官方没有单独设立「Codex 会员」！Codex 访问权限完全绑定在 ChatGPT 付费订阅中**。
-- **开通 ChatGPT Plus**：自动解锁 Codex 智能体在终端、网页和 VSCode / Cursor 插件中的标准使用额度。
-- **开通 ChatGPT Pro**：解锁更高频次（5x 或 20x）的高算力优先访问权。
-- **结论**：想用 Codex，直接在本站开通 ChatGPT Plus 即可，无需额外支付任何开发工具费用。
-
-👉 详见绑定解析：[《ChatGPT Plus 与 Codex 智能体权益绑定解析》](./docs/03-chatgpt-plus-codex-explained.md)
-
----
-
-## 七、国内自己充值最常见的 10 大报错与避坑指南
-
-如果你坚持自己绑卡充值，遇到以下报错请立即停止反复尝试：
-
-| 常见报错提示 | 背后触发原因 | 正确应对措施 |
-| :--- | :--- | :--- |
-| `Your card was declined.` | 银行卡属地被拒或卡内余额不足扣款预授权 | 不要重试！换境外合规卡或使用免密卡密通道 |
-| `Unable to authenticate payment` | 3D Secure 短信/应用验证超时或不被支持 | 检查银行境外在线支付开关，否则放弃该卡 |
-| `Card has expired / Invalid CVV` | 虚拟卡平台卡段失效或生成信息有误 | 及时联系虚拟卡平台注销并退费 |
-| `Too many requests` | IP 节点被拉黑，触发请求频次限制 | 更换家庭原生住宅代理或等待 24 小时 |
-| `Account suspended for unusual activity` | 触发 Stripe 洗钱风控连坐规则 | 需向 OpenAI 提交人工申诉，提供卡主真实账单 |
-
-👉 详见排障手册：[《海外 AI 支付失败与 Stripe 拒绝常见报错终极排障》](./docs/07-stripe-payment-failed-solutions.md)
-
----
-
-## 八、常见问题解答 FAQ
-
-### Q1：充值后大概多久能到账？
-A：平台采用全自动化发卡系统，支付成功后系统在 5~30 秒内即可在订单页生成专属卡密，并同步发送至下单邮箱。用户按指引粘贴激活通常 2 分钟内点亮会员。
-
-### Q2：我原来的聊天记录、GPTs 和记忆库会丢失吗？
-A：**完全不会！** 自助卡密充值是为你现有的 ChatGPT 原生个人账号进行会员权益升级续费，所有历史会话、自定义 GPTs、个人记忆设置原封不动保留。
-
-### Q3：如果之前已经充过，到期了还能在这续费吗？
-A：可以。建议在会员到期当天或过期后重新下单卡密完成续订，卡密生效期通常按激活当天起顺延一个完整订阅周期（30天）。
-
-### Q4：遇到卡密激活失败怎么办？
-A：平台提供 100% 退款与换码兜底质保。若因凭证拥堵或官方接口异常导致无法激活，凭订单号在订单查询页联系在线客服，专人协助秒级补发或当天原路退款。
-
----
-
-## 九、专项长尾场景教程矩阵（点击查阅深度专文）
-
-为了全面解决不同用户在不同场景下的个性化需求，我们整理了以下 8 篇结构化深度专文：
-
-1. 🚀 **[极速新手图文]** [国内微信/支付宝充值 ChatGPT Plus 极速操作步骤](./docs/01-chatgpt-recharge-quickstart.md)
-2. 💳 **[无外卡解决方案]** [国内没有海外实体信用卡，如何安全开通 ChatGPT Plus？](./docs/02-without-overseas-credit-card.md)
-3. 💻 **[Codex 编程专题]** [ChatGPT Plus 与 Codex 编程智能体权益绑定深度解析](./docs/03-chatgpt-plus-codex-explained.md)
-4. 🌟 **[最新旗舰模型]** [GPT-6 Astra 正在分批开放：Plus / Pro 选档与配额完全指南](./docs/04-gpt-6-astra-plan-guide.md)
-5. 💼 **[高频高算力专区]** [ChatGPT Pro 5x 与 20x 深度使用场景对比与选购建议](./docs/05-chatgpt-pro-5x-20x-selection.md)
-6. 🧾 **[企业发票报销]** [ChatGPT Plus / Pro 企业技术服务费发票申请与报销指引](./docs/06-enterprise-invoice-reimbursement.md)
-7. 🛠️ **[Stripe 报错排障]** [Stripe 银行卡被拒与海外 AI 支付失败常见 10 种排障方案](./docs/07-stripe-payment-failed-solutions.md)
-8. 🟣 **[Claude 阵营专篇]** [Claude Pro / Claude Code 国内支付宝与微信充值完整教程](./docs/08-claude-pro-code-recharge-guide.md)
-
----
-
-## 声明与链接合规性
-- 本项目为独立开源技术指南，不代表 OpenAI 或 Anthropic 的官方立场。
-- 充值与结算入口：**[PayForGPT 直营店 (payforgpt.com)](https://payforgpt.com/)**
-- 评测与避坑入口：**[Nano Banana 评测中心 (nano-banana.lol)](https://nano-banana.lol/)**
+站点首页：[PayForGPT](https://payforgpt.com/) · [Nano Banana](https://nano-banana.lol/)
